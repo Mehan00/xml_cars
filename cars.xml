@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+<?xml-stylesheet href="cars.css"?>
+
+<!DOCTYPE cars [
+    <!ELEMENT cars (car+)>
+    <!ELEMENT car (name, color, year, kilometers, engine, petrol, photo)>
+    <!ATTLIST car category (SUV|hetchback|sedan|kombi|coupe) #REQUIRED>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT kilometers (#PCDATA)>
+    <!ELEMENT engine (#PCDATA)>
+    <!ELEMENT petrol (#PCDATA)>
+    <!ELEMENT photo (#PCDATA)>
+]>
+
+<cars>
+	<car category="coupe" >
+  		<name>Audi A5</name>
+  		<color>white</color>
+        <year>2012</year>
+        <kilometers>199 000 km</kilometers>
+  		<engine>1 968 cm3</engine>
+        <petrol>diesel</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFjNGo5MXp1cTJxMzEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.kH1jI2VL_lNvIUPv0xEMcf-OSlmwaXBPTqFX0jdMC4E/image;s=1080x720</photo>
+	</car>
+    <car category="kombi" >
+  		<name>Škoda Octavia</name>
+  		<color>white</color>
+        <year>2017</year>
+        <kilometers>158 440 km</kilometers>
+  		<engine>1 598 cm3 </engine>
+        <petrol>diesel</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNiNGFrMTB1b2JiZjEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.iCoOqXwlYt2N8fvsKd2q9iMD2e4PzlFiUpZc1FjFfUg/image;s=1080x720</photo>
+	</car>
+
+    <car category="hetchback" >
+  		<name>Volkswagen Golf</name>
+  		<color>red</color>
+        <year>2020</year>
+        <kilometers>1 km</kilometers>
+  		<engine>1 984 cm3</engine>
+        <petrol>benzyna</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZ0emt3enZ3dW5lMTEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.m4wVkCweaoKabfB_BSZPdAjZrlp22mRlT_Q8gLneH00/image;s=1080x720</photo>
+	</car>
+
+    <car category="hetchback" >
+  		<name>Opel Corsa</name>
+  		<color>green</color>
+        <year>2010</year>
+        <kilometers>127 547 km</kilometers>
+  		<engine>1 229 cm3</engine>
+        <petrol>benzyna</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImgwMDVmMDlsbTBnNjItT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.pRwKkcD8c9ljt-G7IqpfGO11jfTtgQMa5A0qkyrDcPc/image;s=1080x720</photo>
+	</car>
+
+    <car category="sedan" >
+  		<name>Mazda 3</name>
+  		<color>white</color>
+        <year>2015</year>
+        <kilometers>20 000 km</kilometers>
+  		<engine>1 998 cm3</engine>
+        <petrol>benzyna</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpwMGlwZ3VscjBmYzMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.Xhdyrg4znwFJ7TdaQD1g6VlD9vRiHhUjSHZeMg3anps/image;s=1080x720</photo>
+	</car>
+
+    <car category="sedan" >
+  		<name>Volkswagen Passat</name>
+  		<color>olive</color>
+        <year>2001 </year>
+        <kilometers>292 000 km</kilometers>
+  		<engine>1 781 cm3</engine>
+        <petrol>benzyna</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndvaTVidGtiajhyMDItT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.vSsf4MKwQHwBSawFdZ3phLNrLFHo_IYsyZ63_2utpS8/image;s=1080x720</photo>
+	</car>
+
+    <car category="SUV" >
+  		<name>Mercedes-Benz ML </name>
+  		<color>silver</color>
+        <year>2004</year>
+        <kilometers>252 000 km</kilometers>
+  		<engine>4 000 cm3</engine>
+        <petrol>diesel</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imx5azg1anVocDA0LU9UT01PVE9QTCIsInciOlt7ImZuIjoid2c0Z25xcDZ5MWYtT1RPTU9UT1BMIiwicyI6IjE2IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Siox3MqO5LndPvgTZNzyNWFCLvPlMREDQm0koj_j9LI/image;s=1080x720</photo>
+	</car>
+
+    <car category="kombi" >
+  		<name>Audi A4 Allroad</name>
+  		<color>black</color>
+        <year>2012</year>
+        <kilometers>197 000 km</kilometers>
+  		<engine>1 968 cm3</engine>
+        <petrol>diesel</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijc3YWpianRuZHZrczItT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.aT9dKMdeqSVj0g54QxAxvzD0ef06RKbDhj5nzqWwAlg/image;s=1080x720</photo>
+	</car>
+
+    <car category="kombi" >
+  		<name>BMW Seria 5 E60/E61</name>
+  		<color>black</color>
+        <year>2010</year>
+        <kilometers>252 000 km </kilometers>
+  		<engine>2 993 cm3</engine>
+        <petrol>diesel</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijl5NHhsMWkzbzVteDItT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.8VAE27SKzAmapMgzeFiDVrsFGmjLM-iGaMDfmNJuAGw/image;s=1080x720</photo>
+	</car>
+
+    <car category="hetchback" >
+  		<name>Renault Clio</name>
+  		<color>red</color>
+        <year>2006</year>
+        <kilometers>129 000 km </kilometers>
+  		<engine>1 149 cm3</engine>
+        <petrol>benzyna</petrol>
+        <photo>https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImkycnN0bWQybnE3Zy1PVE9NT1RPUEwiLCJ3IjpbeyJmbiI6IndnNGducXA2eTFmLU9UT01PVE9QTCIsInMiOiIxNiIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.U4E_vGrwOM1-bIN9IU7yWU34zv7TINOxwkFuMZqlMeY/image;s=1080x720</photo>
+	</car>
+</cars>
